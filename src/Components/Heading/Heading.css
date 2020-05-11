@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+.Heading {
+  position: absolute;
+  top: 300px;
+  right: -45px;
+}
+
+.Heading h1 {
+  color: #fff;
+  transform: rotate(90deg);
+  font-family: 'Playfair Display', serif;
+  font-weight: 100;
+}
+
+/* Tablet Media Queries */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* Laptop & Desktop */
+@media only screen and (min-width: 1200px) {
+  .Heading {
+    right: 120px;
+  }
+}

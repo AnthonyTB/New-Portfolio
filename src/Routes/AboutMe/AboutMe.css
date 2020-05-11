@@ -1,0 +1,16 @@
+header img {
+  height: auto;
+  width: 85%;
+  margin-top: 20px;
+}
+
+.bio {
+  width: 80%;
+  margin: auto auto;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.bio p {
+  text-align: left;
+}
