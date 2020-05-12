@@ -1,5 +1,6 @@
 export { default as Sig } from './Images/Sig.png';
 export { default as Me } from './Images/MeClear.png';
+export { default as Dots } from './Images/dotted-shape.png';
 export { default as BackArrow } from './Images/arrow-left-blend.svg';
 export { default as Email } from './Images/email-blend.svg';
 export { default as GitHub } from './Images/github-logo-color.svg';

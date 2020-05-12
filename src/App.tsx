@@ -3,6 +3,7 @@ import './App.css';
 import { Route, RouteProps } from 'react-router-dom';
 import { Home, AboutMe, Projects } from './Routes';
 import { LeftContainer, Heading } from './Components/';
+import { Dots } from './Assets/';
 
 function App(props: any) {
   const [LoadingStatus, setLoadingStatus] = useState(false);
@@ -41,6 +42,7 @@ function App(props: any) {
             path='/:path'
             render={(renderProps: RouteProps) => <Heading {...renderProps} />}
           />
+          <img className='dotted-bg' src={Dots} alt='Dot background' />
         </>
       ) : (
         ''
